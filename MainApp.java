@@ -1,7 +1,7 @@
-import java.awt.*; // awt
-import java.awt.event.*; // event
-import java.util.*; // swing
-import javax.swing.*; // collections
+import java.awt.*; 
+import java.awt.event.*; 
+import java.util.*;
+import javax.swing.*; 
 
 // encapsulation
 class Person {
@@ -20,7 +20,7 @@ class Person {
     }
 }
 
-// encapsulation
+
 class Token {
     int id;
     int priority;
@@ -46,7 +46,7 @@ class Token {
 
         if(p.age > 60) pr += 1;
 
-        // formula
+      
         double bmi = p.weight / Math.pow(p.height / 100.0, 2);
 
         if(bmi > 30) pr += 2;
@@ -59,12 +59,12 @@ class Token {
 // composition
 class QueueManager {
 
-    // priorityqueue
+  
     PriorityQueue<Token> pq;
     int counter=1;
 
     QueueManager(){
-        // comparator
+      
         pq=new PriorityQueue<>((a,b)->{
             if(a.priority==b.priority)
                 return (int)(a.time-b.time);
