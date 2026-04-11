@@ -65,11 +65,6 @@ java MainApp
 - Simple and intuitive  
 - Scalable  
 
-## 🔮 Future Enhancements
-- Database integration  
-- Multi-counter system  
-- Waiting time prediction  
-- Web/mobile version  
 
 ## 📌 Conclusion
 This system demonstrates how OOP and data structures can be applied to solve real-world problems efficiently.
