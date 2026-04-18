@@ -1,15 +1,15 @@
-# 🏥 Smart Hospital Queue Management System
+#  Smart Hospital Queue Management System
 
-## 📌 Overview
+##  Overview
 The Smart Hospital Queue Management System is a Java-based desktop application designed to optimize patient handling in hospitals. It replaces traditional first-come-first-served queues with a priority-based system using real-world health parameters.
 
-## 🎯 Objectives
+##  Objectives
 - Reduce patient waiting time  
 - Prioritize critical cases effectively  
 - Improve hospital workflow  
 - Provide a simple GUI-based system  
 
-## ⚙️ Features
+##  Features
 - Priority-based scheduling using disease, age, and BMI  
 - Disease categories: accident, brain, heart, fracture, fever  
 - BMI-based risk analysis using height and weight  
@@ -17,20 +17,20 @@ The Smart Hospital Queue Management System is a Java-based desktop application d
 - Current serving panel with color indication  
 - Clean GUI using Java Swing & AWT  
 
-## 🧠 Technologies Used
+## Technologies Used
 - Java (Core Java)  
 - Swing & AWT  
 - PriorityQueue (Heap)  
 - Object-Oriented Programming  
 
-## 🧩 OOP Concepts Used
+##  OOP Concepts Used
 - Encapsulation  
 - Abstraction  
 - Inheritance  
 - Polymorphism  
 - Composition  
 
-## 🔢 Priority Logic
+##  Priority Logic
 - Accident → highest priority  
 - Brain / Heart → high priority  
 - Fracture → medium  
@@ -39,27 +39,27 @@ The Smart Hospital Queue Management System is a Java-based desktop application d
 - BMI > 30 → +2 priority  
 - BMI > 25 → +1 priority  
 
-## 🧮 BMI Formula
+##  BMI Formula
 BMI = weight (kg) / (height (m))²
 
-## 🚀 How to Run
+##  How to Run
 javac MainApp.java  
 java MainApp  
 
-## 📂 Project Structure
+##  Project Structure
 - MainApp.java → GUI + logic  
 - Person → patient data  
 - Token → priority calculation  
 - QueueManager → priority queue handling  
 
-## 🖥️ Workflow
+##  Workflow
 1. Enter patient details  
 2. Click Add  
 3. System assigns priority  
 4. Click Serve  
 5. Current patient updates  
 
-## 📈 Advantages
+##  Advantages
 - Efficient queue handling  
 - Real-world applicability  
 - Simple and intuitive  
