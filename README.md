@@ -69,3 +69,12 @@ java MainApp
 ## 📌 Conclusion
 This system demonstrates how OOP and data structures can be applied to solve real-world problems efficiently.
 
+## Future Improvements
+
+- Add persistent storage using a database such as MySQL or SQLite
+- Add separate interfaces for patients, doctors, and administrators
+- Implement appointment scheduling and estimated waiting-time prediction
+- Add support for multiple hospital departments
+- Improve accessibility and GUI responsiveness
+- Add logging and analytics for queue performance
+
